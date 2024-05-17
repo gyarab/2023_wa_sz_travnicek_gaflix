@@ -1,0 +1,24 @@
+[
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Nedotknutelní",
+    "year": 2017,
+    "footage": 102,
+    "description": "Nedotknutelní je francouzský film z roku 2011 režisérů Oliviera Nakache a Érica Toledana, kteří k filmu napsali i scénář. Příběh je inspirován životem Philippa Pozza di Borga a vztahem mezi ním a jeho osobním asistentem Abdelem Yasminem Sellouem. Hlavní role ztvárnili herci François Cluzet a Omar Sy. (Wikipedie)",
+    "main_picture": ""
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 2,
+  "fields": {
+    "name": "nothing, except everything.",
+    "year": 2023,
+    "footage": 13,
+    "description": "A graduating high schooler navigates a world of seemingly inevitable chaos by finding order in the number 7. (IMDb)",
+    "main_picture": "nothing_except_everything_img.jpg"
+  }
+}
+]
