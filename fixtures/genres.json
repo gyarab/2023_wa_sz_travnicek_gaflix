@@ -1,2 +1,50 @@
 [
+{
+  "model": "filmy.genre",
+  "pk": 1,
+  "fields": {
+    "name": "action",
+    "birth_year": null
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 2,
+  "fields": {
+    "name": "horror",
+    "birth_year": null
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 3,
+  "fields": {
+    "name": "family",
+    "birth_year": null
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 4,
+  "fields": {
+    "name": "drama",
+    "birth_year": null
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 5,
+  "fields": {
+    "name": "komedie",
+    "birth_year": null
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Romantický",
+    "birth_year": null
+  }
+}
 ]
