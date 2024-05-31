@@ -3,7 +3,7 @@ from filmy.models import Movie, Director, Genre
 
 # Register your models here.
 class MovieAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id','name', 'footage', 'genres_display']
 
 class DirectorAdmin(admin.ModelAdmin):
     pass
