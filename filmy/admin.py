@@ -14,7 +14,9 @@ class DirectorAdmin(admin.ModelAdmin):
     search_fields = ["name"]
 
 class GenreAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["id", "name"]
+    list_display_links = ["id", "name"]
+    search_fields = ["name"]
 class ActorAdmin(admin.ModelAdmin):
     list_display = ["id", "name", "birth_year"]
     list_display_links = ["id", "name"]
